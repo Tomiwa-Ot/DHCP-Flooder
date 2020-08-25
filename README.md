@@ -1,5 +1,6 @@
 # DHCP-Starver
-The script makes ip requests using random mac addresses with the aim of causing DHCP starvation (Targeted at Debian based distros)
+The script makes DHCP requests using random mac addresses with the aim of causing IP address starvation for other hosts in the network.
+Works for Class C Private IP adresses (Targeted at Debian based distros)
 
 ```console
 root@pc:~# chmod +x dhcp-starver.sh
